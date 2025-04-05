@@ -6,7 +6,7 @@ import servicioRoutes from "./routes/servicios.routes.js"
 const app = express();
 
 //setear un puerto a mi web server
-app.set("port",5000)
+app.set("port",5000);
 
 //routes
 app.use("/api/servicios",servicioRoutes)

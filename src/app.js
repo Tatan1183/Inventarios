@@ -1,6 +1,6 @@
 // importal framework express
 import express from "express";
-import cors from "cors";
+import cors from "cors"
 import categoriaRoutes from "./routes/categorias.routes.js"
 
 //asignamos a app toda la funcionalidad para mi server web

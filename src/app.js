@@ -1,6 +1,6 @@
 // importal framework express
 import express from "express";
-import servicioRoutes from "./routes/servicios.routes.js"
+import categoriaRoutes from "./routes/categorias.routes.js"
 
 //asignamos a app toda la funcionalidad para mi server web
 const app = express();
@@ -9,7 +9,7 @@ const app = express();
 app.set("port",5000);
 
 //routes
-app.use("/api/servicios",servicioRoutes)
+app.use("/api/categorias",categoriaRoutes)
 //se pone disponible el server app para toda la app
 export default app;
 

@@ -4,7 +4,10 @@ import { methodHTTP as categoriaController} from "../controllers/categoria.contr
 const router = Router();
 
 //config respuest from server metod http get
-router.get("/", categoriaController.getCategorias); // Acceso correcto a la función
+
+router.get("/", categoriaController.getCategorias);
+router.post("/", categoriaController.postCategorias);
+
 
 //se hace disponible el server app para toda la app
 export default router;
